@@ -29,3 +29,5 @@ Most of the apps are revision 48 and use revision 48 libraries.
 The revision of the app and the libraries it uses can be identified by the "iRevision" variable in the respective app.
 
 Some apps use revision 46 libraries (marzone46 and mxptest46). Revision 46 of these apps has fewer features but is more robust for the production environment. This is because there's bugs I haven't fixed in the improved revision 48 of these apps (marzone48 and mxptest48). Revision 48 of these apps is included so these bugs can be fixed in the future.
+
+The apps register and forgot_pwd are currently broken because Google changed the security protocol of Gmail so that marxanio could no longer transmit email messages to users. This also broke all the download apps. I've patched the download apps so that they can still work until a new outgoing email service for marxanio can be implemented.
