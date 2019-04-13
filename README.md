@@ -23,8 +23,9 @@ A series of R Shiny apps that comprise the marxanio web service.
 |marzone48     |Run MarZone (revision 48 not in use)       |
 |mxptest48     |Parameter testing (revision 48 not in use) |
 
-Most of the apps use revision 48 libraries.
+Most of the apps are revision 48 and use revision 48 libraries.
+
+The revision of the app and the libraries it uses can be identified by the "iRevision" variable in the respective app.
 
 Some apps use revision 46 libraries (marzone46 and mxptest46). Revision 46 of these apps has fewer features but is more robust for the production environment. This is because there's bugs I haven't fixed in the improved revision 48 of these apps. Revision 48 of these apps is included so these bugs can be fixed in the future.
 
-The revision of the app and the libraries it uses can be identified by the "iRevision" variable in the respective app.
