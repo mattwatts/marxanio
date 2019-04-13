@@ -22,6 +22,7 @@ A series of R Shiny apps that comprise the marxanio web service.
 |downloadcplan |Download C-Plan software                   |
 |marzone48     |Run MarZone (revision 48 not in use)       |
 |mxptest48     |Parameter testing (revision 48 not in use) |
+|usage         |Display server cpu, ram, and disk usage.   |
 
 Most of the apps are revision 48 and use revision 48 libraries.
 
